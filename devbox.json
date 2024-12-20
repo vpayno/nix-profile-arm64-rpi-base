@@ -6,7 +6,9 @@
     "jq@latest",
     "yq-go@latest",
     "yamlfix@latest",
-    "yamllint@latest"
+    "yamllint@latest",
+    "glow@latest",
+    "markdownlint-cli@latest"
   ],
   "shell": {
     "init_hook": [

@@ -1,6 +1,54 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "glow@latest": {
+      "last_modified": "2024-11-28T07:51:56Z",
+      "resolved": "github:NixOS/nixpkgs/226216574ada4c3ecefcbbec41f39ce4655f78ef#glow",
+      "source": "devbox-search",
+      "version": "2.0.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pzsdssyjyks7blsn03mcmi54bkalxkjv-glow-2.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/pzsdssyjyks7blsn03mcmi54bkalxkjv-glow-2.0.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6hps3iaff3z8bb5ixxdx4fy020bm9bqs-glow-2.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6hps3iaff3z8bb5ixxdx4fy020bm9bqs-glow-2.0.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xci5xyk9vxyfp8xrxc3yi09alf14fbi6-glow-2.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xci5xyk9vxyfp8xrxc3yi09alf14fbi6-glow-2.0.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8bh6mg32vjl9xv1anvlqnai6dfb88m3z-glow-2.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8bh6mg32vjl9xv1anvlqnai6dfb88m3z-glow-2.0.0"
+        }
+      }
+    },
     "jq@latest": {
       "last_modified": "2024-12-08T11:15:23Z",
       "resolved": "github:NixOS/nixpkgs/93dc9803a1ee435e590b02cde9589038d5cc3a4e#jq",
@@ -114,6 +162,54 @@
             }
           ],
           "store_path": "/nix/store/iha35mp2hjhc77bkg6mf2zr2gyi6d05s-jq-1.7.1-bin"
+        }
+      }
+    },
+    "markdownlint-cli@latest": {
+      "last_modified": "2024-11-26T10:33:56Z",
+      "resolved": "github:NixOS/nixpkgs/af51545ec9a44eadf3fe3547610a5cdd882bc34e#markdownlint-cli",
+      "source": "devbox-search",
+      "version": "0.43.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dvhw13bg75arbx9ff5dqa37p8r72lj6x-markdownlint-cli-0.43.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dvhw13bg75arbx9ff5dqa37p8r72lj6x-markdownlint-cli-0.43.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2jazh0janrjiq9ijfd4ndgr1kmf1zcjw-markdownlint-cli-0.43.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2jazh0janrjiq9ijfd4ndgr1kmf1zcjw-markdownlint-cli-0.43.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/67qyvwch0r2lvjvc1y0qyvas7izaqzw3-markdownlint-cli-0.43.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/67qyvwch0r2lvjvc1y0qyvas7izaqzw3-markdownlint-cli-0.43.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/02ky0a1qqjf37r34x1agrk2p22snh7lz-markdownlint-cli-0.43.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/02ky0a1qqjf37r34x1agrk2p22snh7lz-markdownlint-cli-0.43.0"
         }
       }
     },
