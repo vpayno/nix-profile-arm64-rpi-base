@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.7/.schema/devbox.schema.json",
+  "packages": [
+    "nixfmt@latest",
+    "nil@latest",
+    "jq@latest",
+    "yq-go@latest",
+    "yamlfix@latest",
+    "yamllint@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Hello nix-shell'"
+    ],
+    "scripts": {
+      "format": [
+        "find . -type f -name '*[.]nix' -exec nixfmt --width=80 {} \\;"
+      ]
+    }
+  }
+}
