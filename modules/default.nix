@@ -1,6 +1,3 @@
-{ nixpkgs ? <nixpkgs>, pkgs ? import nixpkgs { }, }:
-{
-  imports = [
-    ./rust-base.nix
-  ];
+{ nixpkgs ? <nixpkgs>, pkgs ? import nixpkgs { }, }: {
+  imports = [ ./rust-base.nix ];
 }

@@ -12,6 +12,4 @@
     systemConfigs.default =
       system-manager.lib.makeSystemConfig { modules = [ ./modules ]; };
   };
-
-  config = { system-manager.allowAnyDistro = true; };
 }
